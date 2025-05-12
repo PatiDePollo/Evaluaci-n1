@@ -1,13 +1,13 @@
 /*
-Aquí comienza tu archivo CSS.
-Añade estilos a los elementos de la página HTML.
+Florencio Elìas Giuliano 7mo 3ra T.V
 */
-
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
+    align-items: center;
 }
 
 header {
@@ -30,12 +30,19 @@ ul {
     padding-left: 20px;
 }
 
-form {
+#coso-a-centrar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 300px;
+    text-align: center;
 }
-
+.locas{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
 label {
     margin-bottom: 5px;
 }
@@ -45,7 +52,6 @@ input[type="email"] {
     padding: 8px;
     margin-bottom: 10px;
 }
-
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -61,4 +67,17 @@ footer {
     padding: 1em 0;
     bottom: 0;
     width: 100%;
+}
+/* Comentarios en CSS: Usuario: [Tu nombre y apellido] */
+#contenido-principal h1 {
+    color: #FF5733;
+    /* Color rojo para el título principal */
+}
+#contenido-principal h2 {
+    color: #4CAF50;
+    /* Color verde para el subtítulo */
+}
+/* Estilo para el nuevo campo */
+#telefono {
+    margin-top: 10px;
 }

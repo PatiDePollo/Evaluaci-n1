@@ -31,7 +31,7 @@ ul {
     padding-left: 20px;
 }
 
-#coso-a-centrar {
+.coso-a-centrar {
     display: flex;
     flex-direction: column;
     justify-content: center;

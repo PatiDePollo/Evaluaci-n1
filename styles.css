@@ -8,7 +8,9 @@ body {
     background-color: #f4f4f4;
     align-items: center;
 }
-
+h1 {
+    color: blue;
+}
 header {
     background-color: #333;
     color: white;
